@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyra AI Demo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="sidebar">
+        <h2>🤖 Lyra</h2>
+        <p>Hey Harsh 👋</p>
+    </div>
+
+    <div class="chat-container">
+
+        <div class="header">
+            <h1>Lyra AI Assistant</h1>
+            <p>Portfolio Demo Version</p>
+        </div>
+
+        <div class="demo-banner">
+            🚀 Portfolio Demo — Full AI version runs locally using Ollama
+        </div>
+
+        <div id="chatbox"></div>
+
+        <div class="input-box">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Message Lyra..."
+                onkeypress="handleKey(event)"
+            />
+
+            <button onclick="sendMessage()">➤</button>
+            <button onclick="startVoice()">🎤</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
