@@ -64,6 +64,14 @@ function generateReply(message) {
         return "Hello Harsh! 👋 Nice to meet you.";
     }
 
+    if (msg.includes("hii") || msg.includes("hi")) {
+        return "Hello Harsh! 👋 Nice to meet you.";
+    }
+
+    if (msg.includes("hey") || msg.includes("hi")) {
+        return "Hello Harsh! 👋 Nice to meet you.";
+    }
+
     if (msg.includes("who are you")) {
         return "I'm Lyra 🤖, an AI assistant built by Harsh Singla.";
     }
